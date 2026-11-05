@@ -1,0 +1,525 @@
+{
+  "sistine-chapel": {
+    "filename": "sistine-chapel-ceiling.jpg",
+    "subject": "The Sistine Chapel & Michelangelo's Ceiling",
+    "description": "Authentic interior of the Sistine Chapel showing Michelangelo's iconic vaulted fresco ceiling including The Creation of Adam and The Last Judgment.",
+    "search_query": "Sistine Chapel ceiling Michelangelo wide view",
+    "alt": "Sistine Chapel ceiling painted by Michelangelo inside the Vatican Museums",
+    "pages": [
+      "what-to-see/sistine-chapel/",
+      "what-to-see/the-sistine-chapel-michelangelos-masterpiece/",
+      "tours/sistine-chapel-tickets/",
+      "tickets-tours/sistine-chapel-tickets/"
+    ]
+  },
+  "raphael-rooms": {
+    "filename": "raphael-rooms-school-of-athens.jpg",
+    "subject": "The Raphael Rooms (Stanze di Raffaello)",
+    "description": "The School of Athens fresco (Scuola di Atene) painted by Raphael in the Stanza della Segnatura inside the papal apartments.",
+    "search_query": "Scuola di Atene Raffaello Sanzio Vatican",
+    "alt": "The School of Athens fresco by Raphael in the Raphael Rooms of the Vatican Museums",
+    "pages": [
+      "what-to-see/raphael-rooms/",
+      "what-to-see/the-raphael-rooms/"
+    ]
+  },
+  "spiral-staircase": {
+    "filename": "vatican-spiral-staircase.jpg",
+    "subject": "The Vatican Museums Spiral Staircase (Momo Bramante Staircase)",
+    "description": "Top-down symmetrical perspective of Giuseppe Momo's 1932 double-helix bronze spiral staircase at the exit of the Vatican Museums.",
+    "search_query": "Vatican Museum spiral staircase double helix top view",
+    "alt": "Double-helix bronze spiral staircase designed by Giuseppe Momo at the Vatican Museums",
+    "pages": [
+      "what-to-see/spiral-staircase/",
+      "what-to-see/vatican-museums-spiral-staircase/"
+    ]
+  },
+  "gallery-of-maps": {
+    "filename": "vatican-gallery-of-maps.jpg",
+    "subject": "The Gallery of Maps (Galleria delle Carte Geografiche)",
+    "description": "The ornate 120-meter corridor with vaulted gold-leaf stucco ceiling and topographical fresco maps of Italy commissioned by Pope Gregory XIII.",
+    "search_query": "Galleria delle carte geografiche Vatican ceiling",
+    "alt": "The gilded vaulted ceiling and topographical maps in the Gallery of Maps at the Vatican Museums",
+    "pages": [
+      "what-to-see/gallery-of-maps/",
+      "what-to-see/vatican-museums-gallery-of-maps/"
+    ]
+  },
+  "st-peters-basilica": {
+    "filename": "st-peters-basilica-interior.jpg",
+    "subject": "St. Peter's Basilica Interior & Baldacchino",
+    "description": "Monumental interior of St. Peter's Basilica highlighting Bernini's bronze Baldacchino over the Papal Altar and the radiant golden apse.",
+    "search_query": "St Peter's Basilica interior nave Baldacchino Bernini",
+    "alt": "Monumental interior nave and Bernini's bronze Baldacchino inside St. Peter's Basilica",
+    "pages": [
+      "what-to-see/st-peters-basilica/",
+      "tours/st-peters-basilica-tickets/",
+      "tickets-tours/st-peters-basilica-tickets/"
+    ]
+  },
+  "st-peters-square": {
+    "filename": "st-peters-square-colonnade.jpg",
+    "subject": "St. Peter's Square (Piazza San Pietro)",
+    "description": "Sweeping wide-angle view of St. Peter's Square with Bernini's quadruple colonnade, the ancient Egyptian obelisk, and the basilica facade under clear sky.",
+    "search_query": "Piazza San Pietro Roma St Peter's Square colonnade obelisk",
+    "alt": "St. Peter's Square with Bernini's colonnade and Egyptian obelisk in Vatican City",
+    "pages": [
+      "what-to-see/st-peters-square/"
+    ]
+  },
+  "vatican-gardens": {
+    "filename": "vatican-gardens-landscape.jpg",
+    "subject": "The Vatican Gardens (Giardini Vaticani)",
+    "description": "Manicured renaissance gardens of Vatican City featuring lush lawns, Mediterranean pines, formal parterres, fountains, and St. Peter's dome in the background.",
+    "search_query": "Vatican Gardens Giardini Vaticani view St Peter's dome",
+    "alt": "Manicured landscapes and renaissance fountains in the private Vatican Gardens",
+    "pages": [
+      "what-to-see/vatican-gardens/",
+      "what-to-see/the-vatican-gardens/",
+      "tours/vatican-gardens-tour/",
+      "tours/vatican-gardens-tickets/",
+      "tickets-tours/vatican-gardens-tour/"
+    ]
+  },
+  "pinacoteca": {
+    "filename": "vatican-pinacoteca-gallery.jpg",
+    "subject": "The Vatican Pinacoteca (Picture Gallery)",
+    "description": "Masterpieces in the Vatican Art Gallery including Raphael's Transfiguration and paintings by Leonardo, Caravaggio, and Giotto.",
+    "search_query": "Vatican Pinacoteca Raphael Transfiguration Room VIII",
+    "alt": "Raphael's Transfiguration and Renaissance masterpieces inside the Vatican Pinacoteca gallery",
+    "pages": [
+      "what-to-see/pinacoteca/",
+      "what-to-see/the-vatican-pinacoteca/"
+    ]
+  },
+  "top-highlights": {
+    "filename": "vatican-museums-laocoon-sculpture.jpg",
+    "subject": "Vatican Museum Highlights & Classical Sculptures",
+    "description": "The famous Hellenistic masterpiece sculpture group Laoco\u00f6n and His Sons in the Octagonal Courtyard of the Pio-Clementino Museum.",
+    "search_query": "Laocoon and his sons Vatican statue Pio-Clementino",
+    "alt": "The iconic ancient marble sculpture Laoco\u00f6n and His Sons in the Vatican Museums",
+    "pages": [
+      "what-to-see/top-10-highlights/",
+      "what-to-see/vatican-museums-highlights/"
+    ]
+  },
+  "things-to-do-nearby": {
+    "filename": "castel-sant-angelo-rome.jpg",
+    "subject": "Things to Do Near the Vatican: Castel Sant'Angelo & Borgo",
+    "description": "Castel Sant'Angelo and the Ponte Sant'Angelo bridge with marble angels crossing the River Tiber at sunset, located just minutes from the Vatican.",
+    "search_query": "Castel Sant'Angelo bridge Ponte Sant'Angelo Rome Tiber sunset",
+    "alt": "Castel Sant'Angelo fortress and the bridge of angels near Vatican City",
+    "pages": [
+      "what-to-see/things-to-do-nearby/",
+      "what-to-see/things-to-do-near-the-vatican/"
+    ]
+  },
+  "entry-ticket": {
+    "filename": "vatican-fast-track-entry.jpg",
+    "subject": "Fast-Track / Skip-the-Line Museum Entry",
+    "description": "Visitors with timed entry vouchers bypassing the long general admission queue at the entrance atrium of the Vatican Museums.",
+    "search_query": "Vatican Museums entrance modern atrium visitor queue",
+    "alt": "Visitors using fast-track skip-the-line entrance at the Vatican Museums",
+    "pages": [
+      "tours/entry-ticket/",
+      "tours/vatican-museum-entry-tickets/",
+      "tickets-tours/entry-ticket/"
+    ]
+  },
+  "guided-tour": {
+    "filename": "vatican-museum-guided-tour.jpg",
+    "subject": "Vatican Museums Guided Tour with Expert Guide",
+    "description": "Small guided group listening to a professional Vatican guide explaining ancient marble statues in the Gallery of Statues.",
+    "search_query": "tour group Vatican museums guide headset tourists",
+    "alt": "Small group on a licensed guided walking tour through the Vatican Museums galleries",
+    "pages": [
+      "tours/guided-tour/",
+      "tours/vatican-museums-guided-tour/",
+      "tickets-tours/guided-tour/"
+    ]
+  },
+  "best-vatican-tours": {
+    "filename": "best-vatican-tours-overview.jpg",
+    "subject": "Best Vatican Tours Comparison",
+    "description": "Panoramic view of the Vatican complex and grand galleries comparing guided, early morning, VIP, and audio tour options.",
+    "search_query": "Vatican museums Pio-Clementino courtyard Pinecone Cortile della Pigna",
+    "alt": "Panoramic view of Vatican Museums galleries and tour experience highlights",
+    "pages": [
+      "tours/best-vatican-tour/",
+      "tours/best-vatican-tours/",
+      "tickets-tours/best-vatican-tour/"
+    ]
+  },
+  "early-morning-tour": {
+    "filename": "vatican-early-morning-tour.jpg",
+    "subject": "Vatican Early Morning VIP Tour",
+    "description": "Serene, nearly empty Vatican galleries illuminated by soft golden morning sunlight before the public opening at 8:00 AM.",
+    "search_query": "Vatican museums empty gallery morning sunlight quiet",
+    "alt": "Serene empty Vatican museum corridor during an early morning VIP access tour",
+    "pages": [
+      "tours/early-morning-tour/",
+      "tours/vatican-early-morning-tour/",
+      "tickets-tours/early-morning-tour/"
+    ]
+  },
+  "evening-tour": {
+    "filename": "vatican-evening-night-tour.jpg",
+    "subject": "Vatican Museums Evening & Night Tour",
+    "description": "The Vatican Museums and the Cortile della Pigna dramatically illuminated under an indigo twilight sky during special night openings.",
+    "search_query": "Vatican Museums night opening evening illuminated Cortile della Pigna",
+    "alt": "Vatican Museums illuminated at night during special evening tour openings",
+    "pages": [
+      "tours/evening-tour/",
+      "tours/vatican-museums-evening-and-night-tour/",
+      "tickets-tours/evening-tour/"
+    ]
+  },
+  "breakfast-tour": {
+    "filename": "vatican-breakfast-pinecone-courtyard.jpg",
+    "subject": "Vatican Museums Breakfast Tour in Pinecone Courtyard",
+    "description": "Outdoor breakfast buffet table with pastries, fruit, and espresso in the historic Cortile della Pigna in front of the colossal bronze Pinecone.",
+    "search_query": "Cortile della Pigna Vatican Pinecone courtyard breakfast buffet",
+    "alt": "Buffet breakfast table in the Cortile della Pigna courtyard at the Vatican Museums",
+    "pages": [
+      "tours/breakfast-tour/",
+      "tours/vatican-breakfast-tour/",
+      "tickets-tours/breakfast-tour/"
+    ]
+  },
+  "private-tour": {
+    "filename": "vatican-private-vip-tour.jpg",
+    "subject": "Vatican Exclusive Private Tour",
+    "description": "A private licensed art historian guide showing exclusive Vatican palace rooms to a private traveler party.",
+    "search_query": "private tour Vatican museum guide private room",
+    "alt": "Exclusive private VIP tour with a personal guide through Vatican Museums",
+    "pages": [
+      "tours/private-tour/",
+      "tours/vatican-private-tour/",
+      "tickets-tours/private-tour/"
+    ]
+  },
+  "combo-tour": {
+    "filename": "vatican-colosseum-combo-tour.jpg",
+    "subject": "Vatican & Colosseum Combo: Rome in One Day",
+    "description": "Artistic high-end dual composition showing St. Peter's Basilica dome and the ancient Roman Colosseum, symbolizing the ultimate Rome combo.",
+    "search_query": "Rome skyline St Peter's dome Colosseum panoramic view",
+    "alt": "Vatican and Colosseum combo tour highlighting Rome's top two historic monuments",
+    "pages": [
+      "tours/vatican-and-colosseum-combo/",
+      "tours/vatican-colosseum-combo-tour/",
+      "tickets-tours/vatican-and-colosseum-combo/"
+    ]
+  },
+  "scavi-tour": {
+    "filename": "vatican-scavi-necropolis.jpg",
+    "subject": "Vatican Necropolis and Scavi Excavations",
+    "description": "The ancient Roman subterranean mausoleums and brick tombs of the Vatican Necropolis beneath St. Peter's Basilica near the Tomb of Saint Peter.",
+    "search_query": "Vatican necropolis scavi excavations Roman tombs under St Peter's",
+    "alt": "Ancient Roman mausoleums and excavations in the Vatican Necropolis beneath St. Peter's",
+    "pages": [
+      "tours/vatican-scavi-tour/",
+      "tours/vatican-necropolis-and-scavi-tour/",
+      "tickets-tours/vatican-scavi-tour/"
+    ]
+  },
+  "papal-audience": {
+    "filename": "papal-audience-st-peters-square.jpg",
+    "subject": "Papal Audience with the Pope",
+    "description": "Thousands of pilgrims gathered in St. Peter's Square listening to the Holy Father during the Wednesday General Papal Audience.",
+    "search_query": "Papal audience St Peter's Square Pope crowds pilgrims",
+    "alt": "General Papal Audience gathering in St. Peter's Square with pilgrims and visitors",
+    "pages": [
+      "tours/general-papal-audience/",
+      "tours/papal-audience/",
+      "tickets-tours/general-papal-audience/"
+    ]
+  },
+  "private-papal-audience": {
+    "filename": "private-papal-audience-hall.jpg",
+    "subject": "Private Papal Audience & Sala Clementina",
+    "description": "The magnificent frescoed Sala Clementina or Paul VI Audience Hall in the Apostolic Palace for special and private papal audiences.",
+    "search_query": "Sala Clementina Apostolic Palace Vatican frescoed hall",
+    "alt": "The ornate Sala Clementina inside the Apostolic Palace for private papal audiences",
+    "pages": [
+      "tours/private-papal-audience/",
+      "tickets-tours/private-papal-audience/"
+    ]
+  },
+  "roma-pass-omnia": {
+    "filename": "omnia-card-rome-pass.jpg",
+    "subject": "Omnia Card & Roma Pass Vatican Transit",
+    "description": "Traveler holding the yellow Omnia Vatican & Rome card with a Rome open-top sightseeing bus and the Colosseum in the background.",
+    "search_query": "Rome pass transit tourist bus Vatican Rome travel card",
+    "alt": "Omnia Vatican Card and Roma Pass for entry and Rome public transit",
+    "pages": [
+      "tours/roma-pass-omnia-card/",
+      "tours/omnia-card-and-roma-pass/",
+      "tickets-tours/roma-pass-omnia-card/"
+    ]
+  },
+  "castel-gandolfo": {
+    "filename": "castel-gandolfo-papal-palace.jpg",
+    "subject": "Castel Gandolfo Papal Palace & Lake Albano",
+    "description": "The historic Papal Palace (Palazzo Apostolico) overlooking the deep blue waters of volcanic Lake Albano and the Barberini terraced gardens.",
+    "search_query": "Castel Gandolfo Palazzo Apostolico Lake Albano view",
+    "alt": "Castel Gandolfo Papal Palace and terraced gardens overlooking Lake Albano",
+    "pages": [
+      "tours/castel-gandolfo-tickets/",
+      "tours/castel-gandolfo-papal-palace-tickets/",
+      "tickets-tours/castel-gandolfo-tickets/"
+    ]
+  },
+  "last-minute-tickets": {
+    "filename": "vatican-last-minute-mobile-ticket.jpg",
+    "subject": "Last-Minute Vatican Museum Tickets on Mobile",
+    "description": "Traveler holding a modern smartphone displaying a digital instant-entry ticket QR code right outside the Vatican entrance gates.",
+    "search_query": "smartphone mobile ticket barcode entry museum scanner tourist",
+    "alt": "Visitor scanning a digital mobile ticket voucher at the Vatican Museums entrance",
+    "pages": [
+      "tours/last-minute-tickets/",
+      "tours/last-minute-vatican-tickets/",
+      "tickets-tours/last-minute-tickets/"
+    ]
+  },
+  "ticket-prices": {
+    "filename": "vatican-ticket-prices-counter.jpg",
+    "subject": "Vatican Museum Ticket Prices & Official Ticket Desk",
+    "description": "The modern ticketing counters and ticket price display boards inside the entrance hall of the Vatican Museums.",
+    "search_query": "Vatican museums ticket desk ticket office entrance counter",
+    "alt": "Official ticket desk and admission counters inside the Vatican Museums entrance hall",
+    "pages": [
+      "tours/ticket-prices/",
+      "tours/vatican-museums-ticket-prices/",
+      "tickets-tours/ticket-prices/"
+    ]
+  },
+  "opening-hours": {
+    "filename": "vatican-museum-opening-hours.jpg",
+    "subject": "Vatican Museums Opening Hours & Schedule",
+    "description": "The monumental bronze entrance gates of the Vatican Museums on Viale Vaticano in the early morning sunlight as doors open for visitors.",
+    "search_query": "Vatican Museum entrance gate Viale Vaticano morning open",
+    "alt": "The bronze entrance portal of the Vatican Museums on Viale Vaticano at opening time",
+    "pages": [
+      "plan-your-visit/opening-hours/",
+      "plan-your-visit/vatican-museum-opening-hours/"
+    ]
+  },
+  "best-time-to-visit": {
+    "filename": "best-time-to-visit-vatican-crowds.jpg",
+    "subject": "Best Time to Visit the Vatican: Avoiding Crowds",
+    "description": "Visitors walking comfortably through the tranquil galleries of the Vatican Museums during a quiet weekday morning timeslot.",
+    "search_query": "Vatican museums visitors walking spacious gallery quiet morning",
+    "alt": "Visitors enjoying a peaceful morning walkthrough inside the Vatican Museums",
+    "pages": [
+      "plan-your-visit/best-time-to-visit/",
+      "plan-your-visit/best-time-to-visit-the-vatican-museum/"
+    ]
+  },
+  "dress-code": {
+    "filename": "vatican-dress-code-guide.jpg",
+    "subject": "Vatican Dress Code: Shoulders and Knees Covered",
+    "description": "Visitors dressed respectfully in modest attire covering shoulders and knees standing before the entrance of St. Peter's Basilica.",
+    "search_query": "St Peter's Basilica entrance dress code visitors modest clothing",
+    "alt": "Proper visitor attire respecting the Vatican and St. Peter's Basilica dress code",
+    "pages": [
+      "plan-your-visit/dress-code/",
+      "plan-your-visit/vatican-dress-code/"
+    ]
+  },
+  "entrance": {
+    "filename": "vatican-museums-viale-vaticano-entrance.jpg",
+    "subject": "Vatican Museum Entrance on Viale Vaticano",
+    "description": "The neoclassical grand entrance portal on Viale Vaticano with statues of Michelangelo and Raphael carved above the archway.",
+    "search_query": "Vatican Museum entrance Viale Vaticano portal statues Raphael Michelangelo",
+    "alt": "The historic entrance facade of the Vatican Museums on Viale Vaticano",
+    "pages": [
+      "plan-your-visit/entrance/",
+      "plan-your-visit/vatican-museum-entrance/"
+    ]
+  },
+  "museum-map": {
+    "filename": "vatican-museums-visitor-map.jpg",
+    "subject": "Vatican Museums Visitor Map & Gallery Layout",
+    "description": "Traveler holding the official multi-level color-coded map and guidebook of the Vatican Museums galleries and Sistine Chapel route.",
+    "search_query": "museum map brochure guide hands visitor gallery floorplan",
+    "alt": "Official visitor map showing the layout and tour routes through the Vatican Museums",
+    "pages": [
+      "plan-your-visit/museum-map/",
+      "plan-your-visit/vatican-museums-map/"
+    ]
+  },
+  "free-entry-sunday": {
+    "filename": "vatican-free-sunday-entry.jpg",
+    "subject": "Vatican Museums Free Entry: Last Sunday of the Month",
+    "description": "Lively morning crowd lined up alongside the historic Vatican City Renaissance stone walls for the monthly free Sunday admission.",
+    "search_query": "Vatican City walls Viale Vaticano line crowd morning",
+    "alt": "Morning visitors queued along the Vatican walls for free Sunday admission",
+    "pages": [
+      "plan-your-visit/free-entry-last-sunday/",
+      "plan-your-visit/vatican-museums-free-entry-last-sunday/"
+    ]
+  },
+  "accessibility": {
+    "filename": "vatican-museums-wheelchair-accessibility.jpg",
+    "subject": "Wheelchair Accessibility & Step-Free Route",
+    "description": "Modern accessible elevator and smooth, barrier-free ramps accommodating wheelchair users and strollers in the Vatican Museums.",
+    "search_query": "Vatican museums accessible ramp elevator wheelchair access",
+    "alt": "Step-free ramp and wheelchair accessible pathways in the Vatican Museums",
+    "pages": [
+      "plan-your-visit/accessibility/",
+      "plan-your-visit/vatican-museums-wheelchair-accessibility-guide/"
+    ]
+  },
+  "with-kids": {
+    "filename": "visiting-vatican-museums-with-kids.jpg",
+    "subject": "Visiting the Vatican Museums with Children & Families",
+    "description": "Happy family with young children exploring the Egyptian Museum and animal statues in the Vatican Museums with an interactive audio guide.",
+    "search_query": "family with kids museum children learning looking at statues art",
+    "alt": "Family exploring art and classical sculptures together in the Vatican Museums",
+    "pages": [
+      "plan-your-visit/with-kids/",
+      "plan-your-visit/visiting-the-vatican-museums-with-kids/"
+    ]
+  },
+  "where-to-eat": {
+    "filename": "where-to-eat-near-vatican-restaurants.jpg",
+    "subject": "Where to Eat Near the Vatican: Trattorias & Cafes",
+    "description": "Charming outdoor dining table at a Roman trattoria in Borgo Pio near the Vatican, served with handmade pasta, pizza, and Italian wine.",
+    "search_query": "Rome trattoria outdoor dining Borgo Pio pizza pasta wine terrace",
+    "alt": "Authentic outdoor trattoria dining near the Vatican in the Borgo Pio neighborhood",
+    "pages": [
+      "plan-your-visit/where-to-eat/",
+      "plan-your-visit/where-to-eat-near-the-vatican/"
+    ]
+  },
+  "hotels-near-vatican": {
+    "filename": "hotels-near-vatican-city-rome.jpg",
+    "subject": "Hotels Near the Vatican: Prati & Borgo Accommodations",
+    "description": "Elegant boutique hotel room terrace with morning coffee overlooking the dome of St. Peter's Basilica and Roman terracotta rooftops.",
+    "search_query": "hotel balcony view St Peter's dome Rome terrace morning",
+    "alt": "Boutique hotel terrace with view of St. Peter's Basilica dome in Rome",
+    "pages": [
+      "plan-your-visit/hotels-near-vatican/"
+    ]
+  },
+  "how-to-get-there": {
+    "filename": "how-to-get-to-vatican-metro.jpg",
+    "subject": "How to Get to the Vatican: Metro & Public Transit",
+    "description": "Ottaviano - San Pietro metro station entrance on Rome Metro Line A and red city bus arriving at Piazza del Risorgimento near the Vatican.",
+    "search_query": "Rome metro station Ottaviano San Pietro entrance train street",
+    "alt": "Ottaviano San Pietro Metro station entrance providing easy transit access to the Vatican",
+    "pages": [
+      "plan-your-visit/how-to-get-there/",
+      "plan-your-visit/how-to-get-to-the-vatican-museums/"
+    ]
+  },
+  "how-long-to-spend": {
+    "filename": "vatican-museums-duration-timeline.jpg",
+    "subject": "How Long to Spend at the Vatican Museums",
+    "description": "Visitors thoughtfully admiring the vast Belvedere courtyard and galleries, highlighting a balanced 3 to 4 hour itinerary.",
+    "search_query": "Vatican Cortile del Belvedere visitors walking relaxed pace",
+    "alt": "Visitors walking through the Cortile del Belvedere pacing their Vatican Museums tour",
+    "pages": [
+      "plan-your-visit/how-long-to-spend/",
+      "plan-your-visit/how-long-to-spend-at-the-vatican-museums/"
+    ]
+  },
+  "is-it-worth-it": {
+    "filename": "vatican-museums-worth-visiting.jpg",
+    "subject": "Is the Vatican Museums Worth It?",
+    "description": "Awe-inspiring wide view of visitors looking up in amazement at the magnificent gilded ceilings and Renaissance art in the Vatican Museums.",
+    "search_query": "Vatican Museum gallery visitors looking up amazed golden ceiling",
+    "alt": "Visitors gazing up in wonder at the gilded Renaissance ceilings of the Vatican Museums",
+    "pages": [
+      "plan-your-visit/is-it-worth-it/",
+      "plan-your-visit/is-the-vatican-museums-worth-it/"
+    ]
+  },
+  "things-to-know": {
+    "filename": "vatican-things-to-know-security.jpg",
+    "subject": "Things to Know Before You Go: Security & Rules",
+    "description": "Security screening checkpoint and audio guide desk in the modern entrance atrium of the Vatican Museums.",
+    "search_query": "Vatican museum entrance security airport style scanners atrium",
+    "alt": "Security checkpoint and visitor information counters at the Vatican Museums",
+    "pages": [
+      "plan-your-visit/things-to-know/",
+      "plan-your-visit/things-to-know-before-you-go/"
+    ]
+  },
+  "vatican-vs-sistine": {
+    "filename": "vatican-museums-vs-sistine-chapel.jpg",
+    "subject": "Vatican Museums vs Sistine Chapel: Key Differences",
+    "description": "Comparative view illustrating the extensive 7 km of museum galleries leading directly into the sacred Sistine Chapel chamber.",
+    "search_query": "Vatican corridor leading to Sistine chapel signs visitors",
+    "alt": "Corridor within the Vatican Museums leading toward the Sistine Chapel",
+    "pages": [
+      "plan-your-visit/vatican-vs-sistine/",
+      "plan-your-visit/vatican-museums-vs-sistine-chapel/"
+    ]
+  },
+  "christmas": {
+    "filename": "vatican-christmas-mass-tree.jpg",
+    "subject": "Christmas Mass at the Vatican 2026",
+    "description": "St. Peter's Square illuminated at night during Christmas with the illuminated Vatican Christmas Tree and the life-sized Nativity scene (Presepe).",
+    "search_query": "St Peter's Square Christmas tree Nativity Presepe night Vatican",
+    "alt": "Illuminated Christmas tree and Nativity scene in St. Peter's Square at Christmas",
+    "pages": [
+      "plan-your-visit/christmas/",
+      "plan-your-visit/christmas-mass-at-the-vatican-2026/"
+    ]
+  },
+  "official-website": {
+    "filename": "vatican-official-website-tickets.jpg",
+    "subject": "Official Vatican Website vs Authorized Ticket Partners",
+    "description": "Laptop and tablet showing the Vatican ticket booking portal alongside skip-the-line instant digital confirmations.",
+    "search_query": "booking tickets online computer screen travel reservation voucher",
+    "alt": "Comparison of official Vatican Museums ticketing portal and authorized tour booking",
+    "pages": [
+      "plan-your-visit/official-website/",
+      "plan-your-visit/vatican-museum-official-website/"
+    ]
+  },
+  "photos": {
+    "filename": "vatican-photography-rules-camera.jpg",
+    "subject": "Vatican Museums Photography Rules & Photos",
+    "description": "Photographer taking pictures of classical statues in the naturally lit Vatican sculpture gallery, demonstrating allowed personal photography.",
+    "search_query": "photographer camera museum taking picture statue sculpture gallery",
+    "alt": "Visitor capturing photographs of classical sculptures in the Vatican Museums",
+    "pages": [
+      "plan-your-visit/photos/",
+      "plan-your-visit/vatican-museums-photos/"
+    ]
+  },
+  "faqs": {
+    "filename": "vatican-museums-faq-info-desk.jpg",
+    "subject": "Vatican Museums FAQs & Visitor Information",
+    "description": "Helpful multilingual information desk with visitor assistance staff inside the modern reception hall of the Vatican Museums.",
+    "search_query": "museum information desk concierge staff helping tourists lobby",
+    "alt": "Visitor information desk and reception staff assisting travelers at the Vatican Museums",
+    "pages": [
+      "plan-your-visit/faqs/",
+      "plan-your-visit/vatican-museums-faqs/",
+      "plan-your-visit/vatican-museums-visitor-guide/"
+    ]
+  },
+  "3-day-rome-itinerary": {
+    "filename": "rome-3-day-itinerary-panoramic.jpg",
+    "subject": "3-Day Rome Itinerary: Top Sights & Route",
+    "description": "Stunning golden hour panoramic view over the Roman Forum, Colosseum, and Rome historic center from the Capitoline Hill.",
+    "search_query": "Roman Forum panoramic view Capitoline Hill Rome sunset",
+    "alt": "Panoramic golden hour view over the Roman Forum and historic center of Rome",
+    "pages": [
+      "blog/3-day-rome-itinerary/"
+    ]
+  },
+  "best-things-to-do-in-rome": {
+    "filename": "best-things-to-do-rome-highlights.jpg",
+    "subject": "25 Best Things to Do in Rome",
+    "description": "Iconic view of the Trevi Fountain (Fontana di Trevi) with turquoise water flowing over baroque statues under clear Rome sunshine.",
+    "search_query": "Trevi fountain Rome sunshine daytime turquoise water",
+    "alt": "The iconic Trevi Fountain in Rome with sunlight glinting off baroque marble sculptures",
+    "pages": [
+      "blog/best-things-to-do-in-rome/"
+    ]
+  }
+}

@@ -1,0 +1,890 @@
+/* =========================================================
+   PLAN YOUR VISIT - Premium Hub Page Stylesheet
+   Covers Vatican Museums, Sistine Chapel, St. Peter's Basilica & Rome Essentials
+   ========================================================= */
+
+/* ---------- BREADCRUMB ---------- */
+.breadcrumb-bar {
+  background: var(--color-gray-100);
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color-gray-200);
+  font-size: 0.85rem;
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb a {
+  color: var(--color-gray-600);
+  transition: color var(--transition-fast);
+}
+.breadcrumb a:hover {
+  color: var(--color-primary);
+}
+.breadcrumb-sep {
+  color: var(--color-gray-400);
+  font-weight: 300;
+}
+.breadcrumb-cur {
+  color: var(--color-navy);
+  font-weight: 600;
+}
+
+/* ---------- HERO SECTION ---------- */
+.pyv-hero {
+  position: relative;
+  background: linear-gradient(135deg, #0b1329 0%, #152238 60%, #1e3a5f 100%);
+  color: var(--color-white);
+  padding: 64px 0 54px;
+  overflow: hidden;
+}
+.pyv-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 85% 20%, rgba(245, 158, 11, 0.18) 0%, transparent 55%),
+              radial-gradient(circle at 15% 80%, rgba(37, 99, 235, 0.22) 0%, transparent 60%);
+  pointer-events: none;
+}
+.pyv-hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 48px;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.pyv-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(245, 158, 11, 0.16);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #fbbf24;
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.pyv-hero-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.1rem, 4vw, 3.2rem);
+  font-weight: 900;
+  line-height: 1.15;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+.pyv-hero-title .gold-accent {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pyv-hero-desc {
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: #cbd5e1;
+  margin-bottom: 28px;
+  max-width: 620px;
+}
+.pyv-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.btn-gold {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #ffffff;
+  font-weight: 700;
+  box-shadow: 0 4px 18px rgba(245, 158, 11, 0.4);
+}
+.btn-gold:hover {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(245, 158, 11, 0.55);
+}
+.btn-glass {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(8px);
+}
+.btn-glass:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.45);
+  transform: translateY(-2px);
+}
+.pyv-hero-media {
+  position: relative;
+}
+.pyv-hero-img-wrap {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+}
+.pyv-hero-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+}
+.pyv-hero-img-wrap:hover .pyv-hero-img {
+  transform: scale(1.03);
+}
+.pyv-hero-card-floating {
+  position: absolute;
+  bottom: -18px;
+  left: -18px;
+  background: rgba(11, 19, 41, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  border-radius: var(--radius-lg);
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+.floating-stat-num {
+  font-family: var(--font-serif);
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: #fbbf24;
+  line-height: 1;
+}
+.floating-stat-label {
+  font-size: 0.78rem;
+  color: #cbd5e1;
+  line-height: 1.3;
+}
+
+/* ---------- QUICK TIPS STRIP ---------- */
+.pyv-quicktips {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  position: relative;
+  z-index: 2;
+}
+.pyv-quicktip-card {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-lg);
+  padding: 20px 18px;
+  backdrop-filter: blur(8px);
+  transition: all var(--transition-base);
+}
+.pyv-quicktip-card:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(245, 158, 11, 0.4);
+  transform: translateY(-3px);
+}
+.pyv-quicktip-icon {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+.pyv-quicktip-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #fbbf24;
+  margin-bottom: 6px;
+}
+.pyv-quicktip-card p {
+  font-size: 0.84rem;
+  color: #cbd5e1;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ---------- LIVE STATUS BAR WIDGET ---------- */
+.pyv-live-bar {
+  background: #ffffff;
+  border-bottom: 1px solid var(--color-gray-200);
+  box-shadow: 0 4px 16px rgba(11, 19, 41, 0.04);
+  padding: 16px 0;
+}
+.pyv-live-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.pyv-live-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.88rem;
+  color: var(--color-gray-700);
+}
+.status-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.25);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.5); }
+  70% { box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+.status-indicator.amber {
+  background: #f59e0b;
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.25);
+}
+.pyv-live-item strong {
+  color: var(--color-navy);
+}
+
+/* ---------- FILTER NAV BAR ---------- */
+.pyv-filter-section {
+  padding: 24px 0 10px;
+  position: sticky;
+  top: 72px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  z-index: 100;
+  border-bottom: 1px solid var(--color-gray-200);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+.pyv-filter-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scrollbar-width: none;
+}
+.pyv-filter-list::-webkit-scrollbar {
+  display: none;
+}
+.filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  border-radius: var(--radius-full);
+  background: var(--color-gray-100);
+  color: var(--color-gray-700);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  transition: all var(--transition-fast);
+}
+.filter-btn:hover {
+  background: var(--color-gray-200);
+  color: var(--color-navy);
+}
+.filter-btn.active {
+  background: var(--color-primary);
+  color: #ffffff;
+  border-color: var(--color-primary);
+  box-shadow: 0 2px 10px rgba(221, 67, 29, 0.3);
+}
+
+/* ---------- CONTENT SECTIONS & GRIDS ---------- */
+.pyv-section {
+  padding: 56px 0;
+}
+.pyv-section.alt-bg {
+  background: #f8fafc;
+}
+.pyv-section-head {
+  margin-bottom: 36px;
+}
+.pyv-section-head h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3vw, 2.3rem);
+  font-weight: 800;
+  color: var(--color-navy);
+  margin-bottom: 8px;
+}
+.pyv-section-head p {
+  font-size: 1.02rem;
+  color: var(--color-gray-600);
+  margin: 0;
+  max-width: 680px;
+}
+
+/* ---------- ARTICLE GUIDE CARDS GRID ---------- */
+.pyv-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.pyv-card {
+  background: #ffffff;
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(11, 19, 41, 0.05);
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-base);
+  position: relative;
+}
+.pyv-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(11, 19, 41, 0.12);
+  border-color: rgba(221, 67, 29, 0.3);
+}
+.pyv-card-img-wrap {
+  position: relative;
+  height: 210px;
+  overflow: hidden;
+  background: #0b1329;
+}
+.pyv-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.pyv-card:hover .pyv-card-img {
+  transform: scale(1.06);
+}
+.pyv-card-badges {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  z-index: 2;
+}
+.pyv-tag {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: rgba(11, 19, 41, 0.85);
+  color: #ffffff;
+  backdrop-filter: blur(4px);
+}
+.pyv-tag.gold {
+  background: #f59e0b;
+  color: #0b1329;
+}
+.pyv-tag.blue {
+  background: #e85935;
+  color: #ffffff;
+}
+.pyv-card-body {
+  padding: 22px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.pyv-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.22rem;
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+.pyv-card-title a {
+  color: var(--color-navy);
+  transition: color var(--transition-fast);
+}
+.pyv-card-title a:hover {
+  color: var(--color-primary);
+}
+.pyv-card-desc {
+  font-size: 0.88rem;
+  color: var(--color-gray-600);
+  line-height: 1.65;
+  margin-bottom: 18px;
+  flex: 1;
+}
+.pyv-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--color-gray-100);
+  padding-top: 14px;
+  margin-top: auto;
+}
+.pyv-read-time {
+  font-size: 0.78rem;
+  color: var(--color-gray-500);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.pyv-card-link {
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: gap var(--transition-fast);
+}
+.pyv-card:hover .pyv-card-link {
+  gap: 8px;
+}
+
+/* ---------- INTERACTIVE VISIT CALCULATOR ---------- */
+.pyv-calculator-box {
+  background: #ffffff;
+  border: 2px solid var(--color-gray-200);
+  border-radius: var(--radius-xl);
+  padding: 36px;
+  box-shadow: 0 10px 40px rgba(11, 19, 41, 0.06);
+  margin-bottom: 32px;
+}
+.calc-nav-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid var(--color-gray-200);
+  padding-bottom: 16px;
+  flex-wrap: wrap;
+}
+.calc-tab-btn {
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 0.92rem;
+  background: var(--color-gray-100);
+  color: var(--color-gray-700);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.calc-tab-btn.active {
+  background: var(--color-navy);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(11, 19, 41, 0.25);
+}
+.calc-tab-pane {
+  display: none;
+  animation: fadeIn 0.3s ease;
+}
+.calc-tab-pane.active {
+  display: block;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.timeline-step {
+  background: var(--color-gray-50);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  position: relative;
+}
+.timeline-step-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  background: var(--color-primary-bg);
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  margin-bottom: 10px;
+}
+.timeline-step h4 {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  color: var(--color-navy);
+}
+.timeline-step p {
+  font-size: 0.85rem;
+  color: var(--color-gray-600);
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* ---------- PRACTICAL MATRICES ---------- */
+.pyv-practical-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+.practical-card {
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-gray-200);
+  padding: 28px;
+  box-shadow: 0 4px 20px rgba(11, 19, 41, 0.04);
+}
+.practical-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.28rem;
+  color: var(--color-navy);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.practical-card p {
+  font-size: 0.92rem;
+  color: var(--color-gray-600);
+  margin-bottom: 16px;
+}
+.practical-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.practical-card li {
+  font-size: 0.88rem;
+  color: var(--color-gray-700);
+  line-height: 1.55;
+  padding-left: 20px;
+  position: relative;
+}
+.practical-card li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: #10b981;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+/* ---------- PRO TIPS GRID (6-BOX) ---------- */
+.pyv-protips-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.protip-card {
+  background: #ffffff;
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  display: flex;
+  gap: 16px;
+  transition: all var(--transition-base);
+}
+.protip-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 8px 24px rgba(221, 67, 29, 0.08);
+}
+.protip-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+.protip-content h4 {
+  font-size: 0.96rem;
+  font-weight: 700;
+  color: var(--color-navy);
+  margin-bottom: 6px;
+}
+.protip-content p {
+  font-size: 0.84rem;
+  color: var(--color-gray-600);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ---------- TICKET COMPARISON TABLE ---------- */
+.table-responsive {
+  overflow-x: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-gray-200);
+  background: #ffffff;
+  box-shadow: 0 4px 24px rgba(11, 19, 41, 0.05);
+  margin-top: 24px;
+}
+.pyv-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.9rem;
+}
+.pyv-table th {
+  background: var(--color-navy);
+  color: #ffffff;
+  padding: 16px 20px;
+  font-weight: 700;
+  border: none;
+}
+.pyv-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--color-gray-100);
+  color: var(--color-gray-700);
+  vertical-align: middle;
+}
+.pyv-table tr:hover td {
+  background: var(--color-gray-50);
+}
+.pyv-table .ticket-name {
+  font-weight: 700;
+  color: var(--color-navy);
+  font-size: 0.95rem;
+}
+.pyv-table .ticket-price {
+  font-weight: 800;
+  color: var(--color-primary);
+  font-size: 1.1rem;
+}
+
+/* ---------- CTA BANNER ---------- */
+.pyv-cta-banner {
+  background: linear-gradient(135deg, #0b1329 0%, #b83211 100%);
+  border-radius: var(--radius-xl);
+  padding: 48px;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(11, 19, 41, 0.2);
+}
+.pyv-cta-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(245, 158, 11, 0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+.pyv-cta-banner h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.pyv-cta-banner p {
+  font-size: 1.05rem;
+  color: #cbd5e1;
+  max-width: 640px;
+  margin: 0 auto 28px;
+  line-height: 1.7;
+}
+
+/* ---------- FAQS ACCORDION ---------- */
+.pyv-faq-container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+.pyv-faq-item {
+  background: #ffffff;
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-md);
+  margin-bottom: 14px;
+  overflow: hidden;
+  transition: all var(--transition-fast);
+}
+.pyv-faq-item:hover {
+  border-color: var(--color-gray-300);
+}
+.pyv-faq-item.active {
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 16px rgba(221, 67, 29, 0.08);
+}
+.pyv-faq-question {
+  width: 100%;
+  text-align: left;
+  padding: 18px 22px;
+  font-family: var(--font-sans);
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--color-navy);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: none;
+  cursor: pointer;
+}
+.pyv-faq-question:hover {
+  color: var(--color-primary);
+}
+.pyv-faq-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--color-gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--color-gray-600);
+  flex-shrink: 0;
+  transition: all var(--transition-fast);
+}
+.pyv-faq-item.active .pyv-faq-icon {
+  transform: rotate(45deg);
+  background: var(--color-primary-bg);
+  color: var(--color-primary);
+}
+.pyv-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.3s ease;
+  padding: 0 22px;
+  font-size: 0.94rem;
+  color: var(--color-gray-700);
+  line-height: 1.7;
+}
+.pyv-faq-item.active .pyv-faq-answer {
+  max-height: 400px;
+  padding: 0 22px 20px;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+@media (max-width: 1024px) {
+  .pyv-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .pyv-hero-media {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  .pyv-quicktips {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pyv-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .timeline-grid {
+    grid-template-columns: 1fr;
+  }
+  .pyv-protips-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .pyv-hero {
+    padding: 40px 0 36px;
+  }
+  .pyv-quicktips {
+    grid-template-columns: 1fr;
+  }
+  .pyv-grid {
+    grid-template-columns: 1fr;
+  }
+  .pyv-practical-grid {
+    grid-template-columns: 1fr;
+  }
+  .pyv-protips-grid {
+    grid-template-columns: 1fr;
+  }
+  .pyv-cta-banner {
+    padding: 32px 20px;
+  }
+  .pyv-calculator-box {
+    padding: 20px;
+  }
+  .pyv-hero-card-floating {
+    position: static;
+    margin-top: 14px;
+  }
+}
+
+
+/* HIGHLIGHT BOX & QUICK ANSWER BUTTON */
+.highlight-box {
+  background: linear-gradient(135deg, #1e293b, #0f172a) !important;
+  border-radius: var(--radius-lg, 16px);
+  padding: 24px 28px;
+  margin: 28px 0;
+  color: #f8fafc;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+.guide-article .highlight-box p,
+.highlight-box p {
+  color: #cbd5e1 !important;
+  margin: 0;
+  line-height: 1.8;
+  font-size: 1.02rem;
+}
+.guide-article .highlight-box strong,
+.highlight-box strong {
+  color: #fbbf24 !important;
+}
+.guide-article .highlight-box .qa-badge,
+.highlight-box .qa-badge,
+.highlight-box strong:first-child {
+  display: inline-block;
+  background: var(--color-primary, #dd431d) !important;
+  color: #ffffff !important;
+  font-weight: 800;
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 6px;
+  margin-right: 10px;
+  vertical-align: middle;
+  line-height: 1.3;
+  box-shadow: 0 2px 8px rgba(221, 67, 29, 0.4);
+}
+
+
+/* =====================================================
+   ARTICLE INLINE CTA BUTTONS
+===================================================== */
+.article-cta-wrap {
+  margin: 28px 0 !important;
+  display: block !important;
+}
+
+.guide-article p a.btn-article-cta,
+.article-content p a.btn-article-cta,
+.guide-article .btn-article-cta,
+.article-content .btn-article-cta,
+.btn-article-cta {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  background: linear-gradient(135deg, #e85935 0%, #dd431d 100%) !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 0.95rem !important;
+  padding: 12px 28px !important;
+  border-radius: 8px !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 14px rgba(221, 67, 29, 0.35) !important;
+  transition: all 0.2s ease !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+}
+
+.guide-article p a.btn-article-cta:hover,
+.article-content p a.btn-article-cta:hover,
+.guide-article .btn-article-cta:hover,
+.article-content .btn-article-cta:hover,
+.btn-article-cta:hover {
+  background: linear-gradient(135deg, #dd431d 0%, #b83211 100%) !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(221, 67, 29, 0.5) !important;
+}

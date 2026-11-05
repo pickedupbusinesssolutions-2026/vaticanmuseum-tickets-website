@@ -1,0 +1,4 @@
+<a target="_blank" href="https://www.getyourguide.com/colosseum-l2619/?partner_id=M17SZQL&amp;cmp=cl-menu-button" rel="noopener sponsored" class="btn btn-primary btn-sm" id="btn-book-now">Buy Tickets</a>
+<a href="../../tours/" class="btn btn-primary btn-block">🎟 Book Colosseum Tickets</a>
+<a target="_blank" rel="noopener sponsored" href="https://www.getyourguide.com/colosseum-l2619/?partner_id=M17SZQL&amp;cmp=cl-menu-button" class="btn btn-primary btn-full" id="sidebar-book-btn" style="margin-bottom:8px;">Check Prices &amp; Availability</a>
+<a target="_blank" rel="noopener sponsored" href="https://www.getyourguide.com/colosseum-l2619/?partner_id=M17SZQL&amp;cmp=cl-homelink-campare" class="btn btn-secondary btn-full btn-sm" id="sidebar-compare-btn">Compare All Options</a>
