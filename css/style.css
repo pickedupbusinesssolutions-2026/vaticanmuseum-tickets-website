@@ -428,8 +428,10 @@ h4, h5, h6 { font-family: var(--font-sans); font-weight: 600; color: var(--color
   transform: translateX(3px) !important;
 }
 .dropdown-tickets .link-icon,
+.dropdown-tours .link-icon {
+  display: none !important;
+}
 .dropdown-plan .link-icon,
-.dropdown-tours .link-icon,
 .dropdown-plan-col .link-icon {
   font-size: 1rem !important;
   width: 22px !important;
