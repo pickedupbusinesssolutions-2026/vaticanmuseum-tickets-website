@@ -1,0 +1,24 @@
+# =======================================================================
+# Content Negotiation for AI Agents & Search Engines
+# =======================================================================
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# When an AI agent requests markdown (Accept: text/markdown), serve /llms.txt
+RewriteCond %{HTTP:Accept} text/markdown [NC]
+RewriteRule ^$ /llms.txt [L]
+
+RewriteCond %{HTTP:Accept} text/markdown [NC]
+RewriteRule ^index\.html$ /llms.txt [L]
+</IfModule>
+
+# Explicitly serve llms.txt as text/markdown
+<Files "llms.txt">
+    ForceType "text/markdown; charset=utf-8"
+</Files>
+
+# Tell CDNs and caching proxies to vary cache based on the Accept header
+<IfModule mod_headers.c>
+    Header append Vary Accept
+</IfModule>
+

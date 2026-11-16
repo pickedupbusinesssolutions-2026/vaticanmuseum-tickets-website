@@ -487,9 +487,80 @@
   };
 
   /* =====================================================
+     WEBMCP (WEB MODEL CONTEXT PROTOCOL) TOOLS FOR AGENTS
+  ===================================================== */
+  const initWebMCP = () => {
+    if (typeof navigator === 'undefined') return;
+    if (!navigator.modelContext) {
+      navigator.modelContext = {
+        tools: [],
+        registerTool: function(tool) {
+          this.tools.push(tool);
+          return tool;
+        }
+      };
+    }
+    if (typeof navigator.modelContext.registerTool === 'function') {
+      navigator.modelContext.registerTool({
+        name: "searchVaticanTours",
+        description: "Search tickets, guided tours, and passes for the Vatican Museums, Sistine Chapel, and Rome attractions.",
+        inputSchema: {
+          type: "object",
+          properties: {
+            category: {
+              type: "string",
+              description: "Tour category (e.g., 'entry-tickets', 'guided-tours', 'sistine-chapel', 'st-peters-basilica', 'early-access', 'combo')",
+              enum: ["entry-tickets", "guided-tours", "sistine-chapel", "st-peters-basilica", "early-access", "combo", "papal-audience"]
+            }
+          }
+        },
+        execute: async function() {
+          return {
+            status: "success",
+            items: [
+              { title: "Vatican Fast-Track Entry Ticket", price: 31, currency: "EUR", url: "https://vaticanmuseum-tickets.co/tours/entry-ticket/" },
+              { title: "Vatican Guided Tour with Sistine Chapel", price: 49, currency: "EUR", url: "https://vaticanmuseum-tickets.co/tours/guided-tour/" },
+              { title: "Early Morning VIP Vatican Tour", price: 79, currency: "EUR", url: "https://vaticanmuseum-tickets.co/tours/early-morning-tour/" },
+              { title: "St. Peter's Basilica & Dome Climb", price: 39, currency: "EUR", url: "https://vaticanmuseum-tickets.co/tours/st-peters-basilica-tickets/" },
+              { title: "Vatican & Colosseum Combo Pass", price: 89, currency: "EUR", url: "https://vaticanmuseum-tickets.co/tours/vatican-and-colosseum-combo/" }
+            ]
+          };
+        }
+      });
+
+      navigator.modelContext.registerTool({
+        name: "getVaticanVisitingInfo",
+        description: "Retrieve practical visiting information: opening hours, dress code, and entrance details.",
+        inputSchema: {
+          type: "object",
+          properties: {
+            topic: {
+              type: "string",
+              description: "Topic: 'hours', 'dress-code', 'entrance', 'accessibility', 'best-time'",
+              enum: ["hours", "dress-code", "entrance", "accessibility", "best-time"]
+            }
+          }
+        },
+        execute: async function(args) {
+          var data = {
+            hours: "Open Monday to Saturday 8:00 AM - 7:00 PM (Final entry 5:00 PM). Closed Sundays except last Sunday of month.",
+            dressCode: "Shoulders and knees must be covered. No sleeveless tops, short shorts, or hats.",
+            entrance: "Main entrance is at Viale Vaticano, 00165 Roma RM. Nearest metro: Ottaviano (Line A).",
+            accessibility: "Free entry for disabled visitors (>74% disability) and one companion.",
+            bestTime: "Early morning at 8:00 AM or late afternoon after 3:00 PM."
+          };
+          var t = (args && args.topic) || "hours";
+          return { status: "success", topic: t, details: data[t] || data };
+        }
+      });
+    }
+  };
+
+  /* =====================================================
      INIT
   ===================================================== */
   document.addEventListener('DOMContentLoaded', () => {
+    initWebMCP();
     initExternalLinks();
     initNavDropdowns();
     initTicketFilters();
